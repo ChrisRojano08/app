@@ -1,0 +1,111 @@
+body{
+	background: url('../images/PapelTapizCuponealo.png') no-repeat center
+	center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #b8fff9;
+	opacity: 0.8;
+}
+
+.title-footer {
+	color: #42c2ff;
+}
+
+.main {
+	background-color: #effffd;
+	overflow: hidden;
+}
+
+.titleText {
+	color: #42c2ff;
+}
+
+.color-box {
+	color: #42c2ff;
+}
+
+.navbarS {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1001;
+	overflow: visible;
+
+	margin-left: 5%;
+	z-index: 1001;
+}
+
+.logo {
+	background-color: #b8fff9;
+}
+
+@media (max-width: 768px) {
+	.sep-home {
+		position: fixed;
+		top: 0px;
+		height: 216px;
+		width: 100%;
+		background-color: #b8fff9;
+
+		z-index: 1000;
+	}
+
+	.body-home{
+		position: absolute;
+		top: 216px;
+		width: 100%;
+		padding-top: 2%;
+
+		background-color: #effffd;
+	}
+}
+
+@media (min-width: 768px) {
+	.sep-home {
+		position: fixed;
+		top: 0px;
+		height: 112px;
+		width: 100%;
+		background-color: #b8fff9;
+
+		z-index: 1000;
+	}
+
+	.body-home{
+		position: absolute;
+		top: 112px;
+		padding-top: 2%;
+		width: 100%;
+
+		background-color: #effffd;
+	}
+}
+
+.business-card{
+	background-color: white;
+	border-radius: 15px;
+	height: 180px;
+	max-width: 220px;
+	cursor: pointer;
+	margin: left 5px right 5px;
+	margin-top: 45px;
+	overflow: hidden;
+	padding: 9px 0px;
+}
+
+.business-img {
+	border-radius: 15px;
+	width: 90%;
+	height: 120px;
+	display: block;
+    margin: 0 auto;
+}

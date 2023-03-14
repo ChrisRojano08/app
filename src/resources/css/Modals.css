@@ -1,0 +1,53 @@
+/*Modal cupon*/
+.cuponModalHeader {
+	justify-content: end !important;
+	height: 10vh !important;
+}
+@media (min-width: 992px) {
+	#modalContent {
+		background-color: #fefefe;
+		border: #888 solid 1px;
+		margin: auto;
+		top: 13%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		animation-name: animatetop;
+		animation-duration: 0.5s;
+		width: 65% !important;
+		margin-top: -15vh !important;
+	}
+}
+
+@media (max-width: 991px) {
+	#modalContent {
+		width: 70vw !important;
+		top: 8%;
+	}
+
+	.cuponModalHeader {
+		justify-content: end !important;
+		height: 5vh !important;
+	}
+
+	.botonCerrar {
+		color: black;
+		width: 2%;
+		height: 100%;
+		margin-top: -1.5vh;
+	}
+
+	.cuponModalFooter {
+		height: 8vh !important;
+	}
+}
+
+@media (min-height: 1152px) and (max-height: 1728px) {
+	#modalContent {
+		margin-top: -10vh !important;
+	}
+}
+
+@media (min-height: 1729px) and (max-height: 2304px) {
+	#modalContent {
+		margin-top: -5vh !important;
+	}
+}
